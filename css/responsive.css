@@ -1,0 +1,57 @@
+@media screen and (max-width: 450px) {
+	#title {
+		text-align: center;
+	}
+
+	#name {
+		font-size: 180%;
+	}
+
+	#title {
+		font-size: 90%;
+	}
+
+	.thumbnail {
+		width: 100%;
+		margin: auto;
+		padding-bottom: 2em;
+	}
+
+	#footer {
+		font-size: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.footer_item {
+		padding-right: 2em;
+	}
+}
+
+@media screen and (min-width: 450px) {
+
+	.thumbnail {
+		width: 60%;
+		margin: auto;
+		font-size: 75%;
+		margin-bottom: 2em;
+	}
+	.footer_item {
+		font-size: 90%;
+		padding-right: 2em;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.thumbnail {
+		width: 29%;
+		margin: auto;
+		font-size: 88%;
+	}
+
+	.footer_item {
+		font-size: 115%;
+		padding-right: 4em;
+	}
+}
+
